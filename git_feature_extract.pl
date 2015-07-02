@@ -402,7 +402,7 @@ sub FTR_EXTRACT
  # foreach(@sub_location){my @ttt = @{$_};
  # print "@ttt\n";
 # print  "__DDDDDDD\n";}
- 
+ ##########
  
  
  
