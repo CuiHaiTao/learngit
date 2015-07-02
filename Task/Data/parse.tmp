@@ -1,0 +1,68 @@
+No/DT sooner/RBR had/VBD I/PRP reached/VBD home/NN than/IN it/PRP began/VBD to/TO rain/VB ./.
+
+(ROOT
+  (S
+    (ADVP
+      (ADVP (DT No) (RBR sooner))
+      (SBAR (VBD had)
+        (S
+          (NP (PRP I))
+          (VP (VBD reached)
+            (ADVP (NN home) (IN than))))))
+    (NP (PRP it))
+    (VP (VBD began)
+      (S
+        (VP (TO to)
+          (VP (VB rain)))))
+    (. .)))
+
+neg(sooner-2, No-1)
+advmod(began-9, sooner-2)
+dep(reached-5, had-3)
+nsubj(reached-5, I-4)
+advcl(sooner-2, reached-5)
+dep(than-7, home-6)
+advmod(reached-5, than-7)
+nsubj(began-9, it-8)
+nsubj(rain-11, it-8)
+root(ROOT-0, began-9)
+aux(rain-11, to-10)
+xcomp(began-9, rain-11)
+
+He/PRP worked/VBD day/NN and/CC night/NN ,/, so/IN he/PRP was/VBD able/JJ to/TO buy/VB the/DT sports/NNS car/NN ./.
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD worked)
+        (NP (NN day)
+          (CC and)
+          (NN night))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB buy)
+                (NP (DT the) (NNS sports) (NN car))))))))
+    (. .)))
+
+nsubj(worked-2, He-1)
+root(ROOT-0, worked-2)
+tmod(worked-2, day-3)
+tmod(worked-2, night-5)
+conj_and(day-3, night-5)
+dep(worked-2, so-7)
+nsubj(able-10, he-8)
+nsubj(buy-12, he-8)
+cop(able-10, was-9)
+parataxis(worked-2, able-10)
+aux(buy-12, to-11)
+xcomp(able-10, buy-12)
+det(car-15, the-13)
+nn(car-15, sports-14)
+dobj(buy-12, car-15)
+
